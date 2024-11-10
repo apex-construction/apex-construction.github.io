@@ -1,0 +1,64 @@
+<header class="navbar-container">
+    <header data-thq="thq-navbar" class="navbar-navbar-interactive">
+        <img [attr.alt]="logoAlt" [attr.src]="logoSrc" class="navbar-image1"/>
+        <div data-thq="thq-navbar-nav" class="navbar-desktop-menu">
+            <nav class="navbar-links1">
+                <span class="thq-link thq-body-small"><a href="#">{{ link1 }}</a></span>
+                <span class="thq-link thq-body-small"><a href="#services">{{ link2 }}</a></span>
+                <span class="thq-link thq-body-small"><a href="#projects">{{ link3 }}</a></span>
+                <span class="thq-link thq-body-small"><a href="#about-us">{{ link4 }}</a></span>
+            </nav>
+            <div class="navbar-buttons1">
+                <a href="tel:{{ phone }}">
+                    <button class="navbar-action21 thq-button-outline thq-button-animated">
+                        <span class="thq-body-small">Call Us {{ phone }}</span>
+                    </button>
+                </a>
+                <a href="mailto:{{ email }}">
+                    <button class="navbar-action21 thq-button-outline thq-button-animated">
+                        <span class="thq-body-small">Email Us</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div data-thq="thq-burger-menu" class="navbar-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="navbar-icon1">
+                <path
+                        d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+            </svg>
+        </div>
+        <div data-thq="thq-mobile-menu" class="navbar-mobile-menu">
+            <div class="navbar-nav">
+                <div class="navbar-top">
+                    <img [attr.alt]="logoAlt" [attr.src]="logoSrc" class="navbar-logo"/>
+                    <div data-thq="thq-close-menu" class="navbar-close-menu">
+                        <svg viewBox="0 0 1024 1024" class="navbar-icon3">
+                            <path
+                                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                            ></path>
+                        </svg>
+                    </div>
+                </div>
+                <nav class="navbar-links2">
+                    <span class="thq-link thq-body-small">{{ link1 }}</span>
+                    <span class="thq-link thq-body-small">{{ link2 }}</span>
+                    <span class="thq-link thq-body-small">{{ link3 }}</span>
+                    <span class="thq-link thq-body-small">{{ link4 }}</span>
+                </nav>
+            </div>
+            <div class="navbar-buttons2">
+                <a href="tel:{{ phone }}">
+                    <button class="thq-button-outline">
+                        <span class="thq-body-small">Call Us {{ phone }}</span>
+                    </button>
+                </a>
+                <a href="mailto:{{ email }}">
+                    <button class="thq-button-filled">
+                        <span class="thq-body-small">Email Us</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+</header>
